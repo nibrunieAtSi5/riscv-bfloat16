@@ -26,7 +26,7 @@ Encoding::
 ====
 While the mnemonic of this instruction is consistent with that of the other RISC-V floating-point convert instructions, the coding is necessarily different as all of the _fmt_ encodings have been assigned to other floating-point formats.
 
-The "S.B16" field is intended to signify that the source is FP32 and the "H" of the destination is
+The "BF16.S" field is intended to signify that the source is FP32 and the "H" of the destination is
 to be interpreted as BF16. We need to see what encodings are currently used here, and if there is any
 room for such encodings.
 ====
